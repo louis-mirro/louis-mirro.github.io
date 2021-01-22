@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Archives | L&#39;blogs</title>
+  <title>pdf翻译 | L&#39;blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="L&#39;blogs">
-<meta property="og:url" content="http://example.com/archives/index.html">
+  <meta name="description" content="pdf文件翻译为中文 在做美赛准备的时候接触到了大量的英文文献，本想着硬啃顺便锻炼下英文水平，结果大量的文字看的我头都大了，找了一晚上总算是有了差强人意的解决方法。   使用goole translater,可以基本满足阅览要求，缺点是需要科学上网，且大部分图片无法显示，公式基本全部错乱，速度尚可。 将pdf文件转换为html文件，然后用chrome打开，再利用chrome的网页翻译得到中文版，接">
+<meta property="og:type" content="article">
+<meta property="og:title" content="pdf翻译">
+<meta property="og:url" content="http://example.com/2021/01/22/pdf%E7%BF%BB%E8%AF%91/index.html">
 <meta property="og:site_name" content="L&#39;blogs">
+<meta property="og:description" content="pdf文件翻译为中文 在做美赛准备的时候接触到了大量的英文文献，本想着硬啃顺便锻炼下英文水平，结果大量的文字看的我头都大了，找了一晚上总算是有了差强人意的解决方法。   使用goole translater,可以基本满足阅览要求，缺点是需要科学上网，且大部分图片无法显示，公式基本全部错乱，速度尚可。 将pdf文件转换为html文件，然后用chrome打开，再利用chrome的网页翻译得到中文版，接">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-01-22T12:18:22.000Z">
+<meta property="article:modified_time" content="2021-01-22T12:48:27.938Z">
 <meta property="article:author" content="louis-mirro">
+<meta property="article:tag" content="tech">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="L&#39;blogs" type="application/atom+xml">
@@ -150,36 +155,78 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-pdf翻译" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      pdf翻译
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2021" class="archive-year">2021</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/01/22/pdf%E7%BF%BB%E8%AF%91/" class="archive-article-date">
+
+        
+        <a href="/2021/01/22/pdf%E7%BF%BB%E8%AF%91/" class="archive-article-date">
   	<time datetime="2021-01-22T12:18:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-22</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/01/22/pdf%E7%BF%BB%E8%AF%91/">pdf翻译</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="pdf文件翻译为中文"><a href="#pdf文件翻译为中文" class="headerlink" title="pdf文件翻译为中文"></a>pdf文件翻译为中文</h1><hr>
+<p>在做美赛准备的时候接触到了大量的英文文献，本想着硬啃顺便锻炼下英文水平，结果大量的文字看的我头都大了，找了一晚上总算是有了<strong>差强人意</strong>的解决方法。</p>
+<hr>
+<ol>
+<li>使用goole translater,可以基本满足阅览要求，缺点是需要科学上网，且大部分图片无法显示，公式基本全部错乱，速度尚可。</li>
+<li>将pdf文件转换为html文件，然后用chrome打开，再利用chrome的网页翻译得到中文版，接着在中文页面右键—&gt;打印—&gt;另存为pdf文件，这样就可以得到中文的pdf了。这种方法的图片能够得到完整保留，公式存在位置错乱情况，影响较上一种小，在导出pdf后可能会出现某两行行间距为负的情况，观感总体较佳。</li>
+<li>知乎老哥写了一个python脚本，看着演示效果比较好，64位win10实测软件有bug，会报错，链接放到下面，有兴趣可以试试，要是能debug掉应该是效果最好的。</li>
+<li>网上其他能搜到的pdf翻译软件：要不就是注册、收费，要不就是速度过于慢，效果没有这个好。</li>
+</ol>
+<hr>
+<p>总的来说方法2是目前所能够找到的免费里面效果最好的了，要是有能力可以试试调用goole翻译的api写个脚本啥的。</p>
+<hr>
+<p><a target="_blank" rel="noopener" href="https://www.lanzous.com/i480ehi">python软件下载</a><br><a target="_blank" rel="noopener" href="http://www.pdfdo.com/pdf-to-html.aspx">pdf转html网址</a>（实测效果最好）</p>
 
-        <div class="article-info info-on-right">
-          
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>感谢！<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/zhifubao.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/wechat.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -191,84 +238,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/01/22/pdf%E7%BF%BB%E8%AF%91/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/01/18/build-web/" class="archive-article-date">
-  	<time datetime="2021-01-18T10:39:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-18</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2021/01/18/build-web/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">build-web</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/01/18/build-web/">build-web</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">tech</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/01/18/hello-world/" class="archive-article-date">
-  	<time datetime="2021-01-18T08:43:14.759Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-18</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/01/18/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
 
 
           </div>
@@ -295,8 +364,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
